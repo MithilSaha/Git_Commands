@@ -1,1 +1,7 @@
 1. git init ---> Create git Repository
+2. git add <file name> ---> Shift the Modified file to Staging
+3. git add . ---> Shift all modified files of the respository to Staging
+4. git commit -m "<comment>" ---> Shift the Staging file to Commit Stage
+5. git status ---> To see the status of each file of Repository
+6. git log ---> To see all the commits
+7. git log --online ---> To see each commit in a single line
