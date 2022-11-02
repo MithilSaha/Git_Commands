@@ -5,8 +5,8 @@
 5. git status ---> To see the status of each file of Repository
 6. git log ---> To see all the commits
 7. git log --online ---> To see each commit in a single line
-8. git checkout <reference number of the commit>
+8. git checkout <reference number of the commit which Head should point>
    git checkout main
-9. git revert <reference number of the commit>
-10. git reset <reference number of the commit>
-    <reference number of the commit> --hard
+9. git revert <reference number of the commit which we want to revert>
+10. git reset <reference number of the commit till which you want to keep>
+    git <reference number of the commit till which you want to keep> --hard
