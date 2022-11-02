@@ -5,3 +5,4 @@
 5. git status ---> To see the status of each file of Repository
 6. git log ---> To see all the commits
 7. git log --online ---> To see each commit in a single line
+8. git checkout <reference number of the commit>
