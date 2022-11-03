@@ -12,3 +12,4 @@
     git <reference number of the commit till which you want to keep> --hard
 11. git branch <branch name>
 12. git branch -a
+13. git branch -D <branch name>
