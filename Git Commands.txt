@@ -13,3 +13,4 @@
 11. git branch <branch name>
 12. git branch -a
 13. git branch -D <branch name>
+14. git branch -b <branch name>
