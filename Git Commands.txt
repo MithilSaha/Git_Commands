@@ -10,3 +10,5 @@
 9. git revert <reference number of the commit which we want to revert>
 10. git reset <reference number of the commit till which you want to keep>
     git <reference number of the commit till which you want to keep> --hard
+11. git branch <branch name>
+12. git branch -a
