@@ -18,4 +18,4 @@
 16. git merge <branch>  ---> merge a branch with main branch
 17. git branch -d <branch>  ---> Delete a branch which is mergerd with main branch
 18. git push <remote repository url> <local branch name from where you have your code>
-19. git remote add <alias name> <remote repository url>
+19. git remote add <alias name> <remote repository url
