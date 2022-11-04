@@ -24,3 +24,4 @@
 22. git diff  ---> To view unstaged changes in a file and comapre with last staged changed of the same file
 23. git dif --staged ---> To view the staged changes of a file
 24. git --no-pager log --oneline  ---> To view all logs without encountering END of log file
+25. 
