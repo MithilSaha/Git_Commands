@@ -19,4 +19,4 @@
 17. git branch -d <branch>  ---> Delete a branch which is mergerd with main branch
 18. git push <remote repository url> <local branch name from where you have your code>  ---> send your code to remote reposiotry
 19. git remote add <alias name> <remote repository url>  ---> Give an alias name to a remote repository url 
-20. git clone <remote repository url>  ---> Copying repository from remote network
+20. git clone <remote repository url>  ---> Copying repository from remote network ------------
