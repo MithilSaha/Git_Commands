@@ -17,3 +17,4 @@
 15. git branch -b <branch name>  ---> Create a branch in a repository and switch to the newly created branch
 16. git merge <branch>  ---> merge a branch with main branch
 17. git branch -d <branch>  ---> Delete a branch which is mergerd with main branch
+18. git push <repository url> <branch name in which you want to push your code>
