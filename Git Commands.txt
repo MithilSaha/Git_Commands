@@ -23,3 +23,4 @@
 21. git pull <remote repository url> <branch name of remote repository which you want to pull from remote to local>  ---> Fetch and Merge remote repository's code to local branch at currently you are now
 22. git diff  ---> To view unstaged changes in a file and comapre with last staged changed of the same file
 23. git dif --staged ---> To view the staged changes of a file
+24. git --no-pager log --oneline  ---> To view all logs without encountering END of log file
