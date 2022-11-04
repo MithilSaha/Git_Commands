@@ -21,3 +21,5 @@
 19. git remote add <alias name> <remote repository url>  ---> Give an alias name to a remote repository url 
 20. git clone <remote repository url>  ---> Copying repository from remote network
 21. git pull <remote repository url> <branch name of remote repository which you want to pull from remote to local>  ---> Fetch and Merge remote repository's code to local branch at currently you are now
+22. git diff  ---> To view unstaged changes in a file and comapre with last staged changed of the same file
+23. git dif --staged ---> To view the staged changes of a file
