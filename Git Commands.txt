@@ -1,0 +1,22 @@
+1. git init ---> Create git Repository
+2. git add <file name> ---> Shift the Modified file to Staging
+3. git add . ---> Shift all modified files of the respository to Staging
+4. git commit -m "<comment>" ---> Shift the Staging file to Commit Stage
+5. git status ---> To see the status of each file of Repository
+6. git log ---> To see all the commits
+7. git log --online ---> To see each commit in a single line
+8. git checkout <reference number of the commit which Head should point>
+   git checkout main
+9. git revert <reference number of the commit which we want to revert>
+10. git reset <reference number of the commit till which you want to keep>
+    git <reference number of the commit till which you want to keep> --hard
+11. git branch <branch name>  ---> Create a branch in respository
+12. git branch -a  ---> View all branches of a respository
+13. git checkout <branch name>  ---> Switch to a branch
+14. git branch -D <branch name>  ---> Delete a branch which is not merged with main branch
+15. git branch -b <branch name>  ---> Create a branch in a repository and switch to the newly created branch
+16. git merge <branch>  ---> merge a branch with main branch
+17. git branch -d <branch>  ---> Delete a branch which is mergerd with main branch
+18. git push <remote repository url> <local branch name from where you have your code>  ---> send your code to remote reposiotry
+19. git remote add <alias name> <remote repository url>  ---> Give an alias name to a remote repository url 
+20. git clone <remote repository url>  ---> Copying repository from remote network
