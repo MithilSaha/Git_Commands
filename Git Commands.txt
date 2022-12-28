@@ -24,4 +24,4 @@
 22. git diff  ---> To view unstaged changes in a file and comapre with last staged changed of the same file
 23. git dif --staged ---> To view the staged changes of a file
 24. git --no-pager log --oneline  ---> To view all logs without encountering END of log file
-25. 
+25. git pull origin main --allow-unrelated-histories ---> Use this comment in case you have created a new repository in local and made few commits and you have also made a remote repository that has also few commits. So both repositories have mismatched commits brtween them and you are trying to pull from the remote repository to the local repository. Git will throw error for this pull request becuase Git can not relate these repositories because of their mismatched commits. So use the mentioned comment to resolve the issue.
