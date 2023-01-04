@@ -26,3 +26,4 @@
 24. git --no-pager log --oneline  ---> To view all logs without encountering END of log file
 25. git pull origin main --allow-unrelated-histories ---> Use this comment in case you have created a new repository in local and made few commits and you have also made a remote repository that has also few commits. So both repositories have mismatched commits brtween them and you are trying to pull from the remote repository to the local repository. Git will throw error for this pull request becuase Git can not relate these repositories because of their mismatched commits. So use the mentioned comment to resolve the issue.
 26. git remote add upstream <remote repository link> ---> It will add the remote branches into the local repository.
+27. git pull -r <remote repo> <the branch name from remote repo where you are trying to rebase> ---> To rebase with remote repo's main branch with local repo's any branch you want.
